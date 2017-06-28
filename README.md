@@ -4,7 +4,9 @@
 
 This is a custom widget for Android, which uesd for showing grid pictures, such as you seeing in weibo or wechat.
 
-![](http://ac-qygvx1cc.clouddn.com/ee5906c846ad3346.png)
+**Add cross column style in this branch**.
+
+![](https://user-images.githubusercontent.com/7017463/27373963-b7b2137e-569c-11e7-88e1-ca1c6e9441aa.gif)
 
 ### Update Log
 
@@ -148,8 +150,10 @@ mNineImageView.setItemImageClickListener(new ItemImageClickListener<String>() {
     }
 });
 ```
-
-
+##### 6. set Cross column style for NineGridImageView 
+```
+mNineImageView.setImagesData(data,NineGridImageView.TOPCOLSPAN);
+```
 
 ### Credits
 
